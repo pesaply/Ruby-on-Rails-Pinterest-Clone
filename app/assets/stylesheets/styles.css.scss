@@ -1,0 +1,21 @@
+$btn-default-bg: green;
+$btn-default-color: white;
+$navbar-default-bg: white;
+$navbar-default-border: white;
+@import 'bootstrap';
+
+body {
+  padding-top: 60px;
+}
+
+// @import 'bootstrap-responsive';
+
+.footer {
+  margin-top: 50px;
+  color: $gray;
+  a {
+      color: $gray;
+  }
+}
+
+
