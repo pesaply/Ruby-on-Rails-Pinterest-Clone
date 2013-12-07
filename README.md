@@ -1,1 +1,1 @@
-==Ruby on Rails Pinterest clone.
+Ruby on Rails Pinterest clone.
