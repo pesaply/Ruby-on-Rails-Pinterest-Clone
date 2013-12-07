@@ -2,10 +2,16 @@
   <div class="col-md-6  col-md-offset-3">
     <div class="well">
       <p>
-        <strong>Description:</strong>
         <%= @pin.description %>
       </p>
+      <p>
+        <%= @pin.user.name %>
+      </p>
+    <% if current_user == @pin.user %>
+
         <%= link_to 'Edit', edit_pin_path(@pin) %> |
+        <% end %>
+
         <%= link_to 'Back', pins_path %>
     </div>
   </div>
