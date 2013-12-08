@@ -2,7 +2,7 @@ Omr::Application.routes.draw do
   resources :pins
 
   devise_for :users
-  root 'pages#home'
+  root 'pins#index'
   get 'user_root' => 'pins#index', as: :user_root
   get 'about' => 'pages#about'
   ## match '/about', to: 'pages#about', via: 'get'
