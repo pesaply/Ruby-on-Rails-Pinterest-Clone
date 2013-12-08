@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'simple_form'
+gem 'paperclip', '~> 3.0'
 
 group :development do
   gem 'sqlite3'

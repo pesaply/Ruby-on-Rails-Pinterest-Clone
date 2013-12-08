@@ -10,3 +10,6 @@ doc/app
 *.swp
 *~
 .DS_Store
+
+# Ignore uploaded paper clip files
+/public/system
